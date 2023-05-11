@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
 
-#define ONIGURUMA
+puts ARGV[0].scan(/[\As|S]+\w+\w+\w/{2/}l\b/).join
 
-/[\As|S]+\w+\w+\w/{2/}l\b/
